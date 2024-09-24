@@ -1,0 +1,74 @@
+body {
+background: lightskyblue;
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+}
+
+main img {
+display: block;
+max-width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+    font-size: 3em;
+    color: tomato;
+    line-height: 1.5;
+    font-weight: 1000; 
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: blue;
+    padding: 1em;   
+
+    
+}
+
+
+
+nav a:hover {
+    background-color: aquamarine; 
+    
+}
+
+nav a {
+display: inline-block;
+font-size: 2em;
+color: peru;
+line-height: 1.5;
+
+background-color: rgb(19, 88, 161);
+
+padding: 0.25em;
+border: 0.1em white solid;
+margin: 0 auto;
+
+transition: background 300ms ease;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-inline: 0px;
+    justify-content: space-evenly;
+}
+
+nav img {
+
+   width: 5em;
+
+}
+
+nav li:first-of-type a {
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
